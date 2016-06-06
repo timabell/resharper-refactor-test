@@ -6,6 +6,9 @@ base method.
 
 Take a look at the various branches to see it in various states.
 
+![refactor suggestion](resharper-remove-redundant.png)
+![refactor warning window](resharper-remove-redundant-warning.png)
+
 ## branch: prepared
 
 All tests green, with a redundant override in the middle class in the
