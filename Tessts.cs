@@ -23,6 +23,7 @@ namespace resharper_refactor_test
             var subject = new MiddleClass();
 
             // resharper also incorrectly removes this usage:
+            subject.CallMeSometime();
 
             subject.CallCount.Should().Be(1);
         }
