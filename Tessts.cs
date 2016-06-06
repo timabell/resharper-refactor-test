@@ -21,7 +21,10 @@ namespace resharper_refactor_test
         public void TestMiddleThing()
         {
             var subject = new MiddleClass();
+
+            // resharper also incorrectly removes this usage:
             subject.CallMeSometime();
+
             subject.CallCount.Should().Be(1);
         }
 
