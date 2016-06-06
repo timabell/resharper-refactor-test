@@ -16,5 +16,21 @@ namespace resharper_refactor_test
             subject.CallMeSometime();
             subject.CallCount.Should().Be(1);
         }
+
+        [Test]
+        public void TestMiddleThing()
+        {
+            var subject = new MiddleClass();
+            subject.CallMeSometime();
+            subject.CallCount.Should().Be(1);
+        }
+
+        [Test]
+        public void TestUpperThing()
+        {
+            var subject = new UpperClass();
+            subject.CallMeSometime();
+            subject.CallCount.Should().Be(1);
+        }
     }
 }

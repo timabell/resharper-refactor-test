@@ -9,7 +9,7 @@
             CallCount = 0;
         }
 
-        public void CallMeSometime()
+        public virtual void CallMeSometime()
         {
             CallCount++;
         }
